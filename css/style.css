@@ -1,0 +1,225 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h2{
+    font-family: 'Bebas Neue';
+}
+
+.style-a{
+    font-family: 'Bebas Neue';
+}
+
+.style-p{
+    font-family: 'Bebas Neue';
+}
+
+.dropdown-menu{
+    border-radius: 0 !important;
+}
+
+.top-67{
+    top: 67% !important;
+}
+
+.btn{
+    font-family: 'Bebas Neue' !important;
+    width: 10% !important;
+    border-radius: 0 !important;
+}
+
+.style-hover {
+    padding: 19px;
+}
+
+.style-hover:hover {
+    background-color: #CBAC6B;
+}
+
+.style-lien:hover {
+    background-color: unset !important;
+    color: #CBAC6B !important;
+}
+
+#logo {
+    width: 85%;
+}
+
+.style-h2 {
+    width: 43%;
+    text-align: center;
+}
+
+.style-h5{
+    font-family: 'Bebas Neue' !important;
+}
+
+/*----------- Style du bouton des carousel ----------*/
+
+.btnc1 {
+    width: 10px !important;
+    height: 10px !important;
+    border-radius: 75% !important; 
+    border: 1px solid white !important;
+    background: none !important;
+}
+
+.active.btnc1 {
+    width: 10px !important;
+    height: 10px !important;
+    border-radius: 75% !important; 
+    border: 1px solid white !important;
+    background: white !important;
+}
+
+.active.btnc1:hover {
+    width: 10px !important;
+    height: 10px !important;
+    border-radius: 75% !important; 
+    border: 1px solid white !important;
+    background: white !important;
+}
+
+
+ 
+/*----------- Style section présentation d'activité ----------*/
+#act1 {
+    height: 450px;
+    background: url(../assets/images/activites/bg_activite_1.jpg) center/cover no-repeat;
+}
+#act2 {
+    height: 450px;
+    background: url(../assets/images/activites/bg_activite_2.jpg) center/cover no-repeat;
+}
+#act3 {
+    height: 450px;
+    background: url(../assets/images/activites/bg_activite_3.jpg) center/cover no-repeat;
+}
+#act4 {
+    height: 450px;
+    background: url(../assets/images/activites/bg_activite_4.jpg) center/cover no-repeat;
+}
+
+/*------------ Annimation underline "en savoir plus" ---------*/
+.animation-a {
+    position: relative;
+    padding-bottom: 4%;
+}
+
+.animation-a::after{
+    transition: all 1s;
+}
+
+.animation-a::after{
+    content: '';
+    width: 15%;
+    border-bottom: solid;
+    background-color: white;
+    margin-top: 1% ;
+    position: absolute;
+    bottom: 0;
+    left: 43%;
+    transition: width 0.7s ease 0s, left 0.7s ease 0s;
+}
+
+.animation-a:hover::after{
+    width: 155%;
+    left: -30%;
+}
+
+/*------------ Annimation underline "Lire la suite" ----------*/
+
+.animation {
+    position: relative;
+    padding-bottom: 2%;
+}
+
+.animation::after{
+    transition: all 1s ;
+}
+
+.animation::after{
+    content: '';
+    width: 20%;
+    height: 2px;
+    background-color: black;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+
+.animation:hover::after{
+    width: 100%;
+}
+
+/*----------- Style section partenaire --------------*/
+.style-section-partenaire{
+    background-color: #282828;
+}
+
+/*----------- Style footer -----------*/
+.style-footer{
+    background-color: #282828;
+}
+
+.style-li-footer {
+    list-style: symbols("\2015");
+}
+
+.style-li-footer:hover{
+    color: #CBAC6B;
+}
+
+.style-p-hover:hover{
+    cursor: pointer;
+    color: #CBAC6B;
+}
+
+.style-hover-a:hover{
+    color: #CBAC6B !important;
+}
+
+/*--------- Style media query -------------*/
+
+@media  screen and (max-width: 576px) {
+    #navbarSupportedContent {
+        background-color: black !important;
+    }
+    .btn{
+        width: 30% !important;
+    }
+    .btn2{
+    display: none;
+}
+}
+
+/*--------- Page de Présentation -------------*/
+
+h3{
+    font-family: 'Bebas Neue';
+}
+
+.btnm1 {
+    width: 30% !important;
+    background-color: #CBAC6B !important;
+    border: solid #CBAC6B !important;
+}
+
+.cacarousel {
+    width: 500px !important;
+    height:760px !important;
+}
+
+/*----- Style formulaire de contact ------*/
+.color-btn{
+    background-color: #CBAC6B !important;
+}
+
+.h-textarea{
+    height: 300px !important;
+}
+
