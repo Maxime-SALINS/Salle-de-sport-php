@@ -50,8 +50,7 @@
                     </ul>
                     <div class="navbar-nav">
                         <div class="nav-item">
-                            <a class="style-a fs-4 nav-link text-light text-uppercase" href="tel:+330559478418"><i
-                                    class="fa-solid fa-mobile-screen-button" style="color: #ffffff;"></i> 05 59 47 84 18</a>
+                            <a class="style-a fs-4 nav-link text-light text-uppercase" href="tel:+330559478418"><i class="fa-solid fa-mobile-screen-button" style="color: #ffffff;"></i> 05 59 47 84 18</a>
                         </div>
                     </div>
                     <div class="navbar-nav">

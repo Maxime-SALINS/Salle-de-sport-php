@@ -1,7 +1,7 @@
-<?php function navLink ($arg1 , $arg2 , $arg3=false){
+<?php function navLink ($link , $title){
     return 
         '<li class="nav-item style-hover">
-            <a class="style-a fs-4 nav-link active text-light text-uppercase" aria-current="page" href="' . $arg1 . '">' . $arg2 . '</a>
+            <a class="style-a fs-4 nav-link active text-light text-uppercase" aria-current="page" href="' . $link . '">' . $title . '</a>
         </li>';
 
 } ?>

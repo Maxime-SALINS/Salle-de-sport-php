@@ -25,7 +25,8 @@
                     <ul class="navbar-nav">
                         <li class="nav-item style-hover">
                             <a class="style-a fs-4 nav-link active text-light text-uppercase" aria-current="page"
-                                href="404.php">L'équipe</a>
+                                href="404.php">L'équipe
+                            </a>
                         </li>
                         <li class="nav-item dropdown style-hover">
                             <a class="style-a fs-4 nav-link dropdown-toggle text-light text-uppercase"
