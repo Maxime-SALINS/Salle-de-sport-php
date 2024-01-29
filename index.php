@@ -67,40 +67,7 @@
     <section class="container p-5">
         <h2 class="text-center mb-0">NOS DERNIERES ACTUALITES</h2>
         <img class="d-block mx-auto p-3" src="assets/images/bg_titre.jpg" alt="">
-     <div class="d-flex flex-row align-items-centre justify-content-around gy-0 w-100 ">
-        <div class="row row-cols-12 row-cols-sm-3">
-            <div class="mb-3">
-                <img class="card-img-top radius" src="assets/images/bg_temoignage.jpg" alt="">
-                <div class="card-body">
-                    <p class="mt-5 mb-0 style-p">28 OCTOBRE 2018</p>
-                    <h5 class="fs-4 crad-title style-h5">Titre de l'actualité sur une ou deux lignes en majuscules</h5>
-                    <p class="mt-3 mb-0 ">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua veniam…
-                    </p>
-                    <a href="404.php" class="animation card-link fw-bold text-dark text-uppercase text-decoration-none">lire la suite</a>
-                </div>
-            </div>
-            <div class="mb-3">
-                <img class="card-img-top radius" src="assets/images/bg_temoignage.jpg" alt="">
-                <div class="card-body">
-                    <p class="mt-5 mb-0 style-p">22 OCTOBRE 2018</p>
-                    <h5 class="fs-4 crad-title style-h5">Titre de l'actualité sur une ou deux lignes en majuscules</h5>
-                    <p class="mt-3 mb-0 ">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua veniam…
-                    </p>
-                    <a href="404.php" class="animation card-link fw-bold text-dark text-uppercase text-decoration-none">lire la suite</a>
-                </div>
-            </div>
-            <div class="mb-3">
-                <img class="card-img-top radius" src="assets/images/bg_temoignage.jpg" alt="">
-                <div class="card-body">
-                    <p class="mt-5 mb-0 style-p">18 OCTOBRE 2018</p>
-                    <h5 class=" fs-4 style-h5">Titre de l'actualité sur une lignes </h5>
-                    <p class="mt-3 mb-0 ">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua veniam…
-                    </p>
-                    <a href="404.php" class="animation card-link fw-bold text-dark text-uppercase text-decoration-none">lire la suite</a>
-                </div>
-            </div>
-        </div>
-     </div>   
+        <?php require('actualites.php')?>   
     </section>
 
 
