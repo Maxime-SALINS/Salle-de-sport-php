@@ -67,7 +67,11 @@
     <section class="container p-5">
         <h2 class="text-center mb-0">NOS DERNIERES ACTUALITES</h2>
         <img class="d-block mx-auto p-3" src="assets/images/bg_titre.jpg" alt="">
-        <?php require('actualites.php')?>   
+        <div class="d-flex flex-row align-items-centre justify-content-around gy-0 w-100 ">
+            <div class="row row-cols-12 row-cols-sm-3">
+                <?php require('actualites.php')?>   
+            </div>
+        </div>
     </section>
 
 
